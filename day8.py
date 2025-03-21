@@ -12,8 +12,13 @@
 # ls2 = [x for x in ls if x != "Karachi"]
 # print(ls2)
 
+# ls = ["Karachi", "Lahore", "multan", "faislabad", "sargodha"]
+
+# ls3 = [x.capitalize() for x in ls]
+
+# print(ls3)
+
+
 ls = ["Karachi", "Lahore", "multan", "faislabad", "sargodha"]
 
-ls3 = [x.capitalize() for x in ls]
-
-print(ls3)
+ls3 = [x[0].upper + x[1:-1].lower +  for x in ls]
