@@ -234,11 +234,15 @@
 #     print(p)
 # print(lp)
 
-ls = [ "lahore","Faisalabad","jaranwala"]
-lp = []
-for x in ls:
-    lp.insert(0,x)
-print(lp)
+# ls = [ "lahore","Faisalabad","jaranwala"]
+# lp = []
+# for x in ls:
+#     lp.insert(0,x)
+# print(lp)
+
+
+#zubair afzal 
+
 
 
 
