@@ -64,5 +64,77 @@
 # print(type(st))
 # print(st)
 
-st = set (("hello","world","how are you",'hello'))
-print(st)
+# st = set (("hello","world","how are you",'hello'))
+# print(st)
+
+
+# st = set (("hello","world","how are you", True, 1 ,0 ,"yes","no"))
+# st.remove("hello")
+# st.discard("hello")
+# print(st)
+
+# st = set (("hello","world","how are you", True, 1 ,0 ,"yes","no"))
+# st.discard("hello")
+# st.discard("hello")
+# print(st)
+
+# st = set (("hello","world","how are you", True, 1 ,0 ,"yes","no"))
+# st.clear()
+# print(st)
+
+# st = set (("hello","world","how are you", True, 1 ,0 ,"yes","no"))
+# del st
+# print(st) #here is error that st in not define
+
+
+#union method in sets
+
+# st1 = {"hello" , "world"}
+# st2 = {"hi", "how", "world"}
+
+# st3 = st1 | st2
+
+# print(st3)
+
+
+        #union method can be used by two methods we can use union function and bar operator (|)
+    #union me plus (+) operator use nhi hota or yeh allowed nhi hai 
+
+# st1 = {"hello" , "world"}
+# st2 = {"hi", "how", "world"}
+
+# st3 = st1.union(st2)
+
+# print(st3)
+
+#Set intersection 
+
+
+
+# st1 = {"hello" , "world"}
+# st2 = {"hi", "how", "world"}
+
+# st3 = st1 & st2
+
+# print(st3)
+
+    #set intersection can be used in two ways we can use intersection function and and operator (&)
+
+# st1 = {"hello" , "world"}
+# st2 = {"hi", "how", "world"}
+
+# st3 = st1.intersection(st2)
+
+# print(st3)
+
+#set differences
+
+
+#we can use set differences by difference function and minus operator (-)
+
+st1 = {"hello" , "world"}
+st2 = {"hi", "how", "world"}
+
+# st3 = st1.difference(st2)
+st3 = st1 - st2
+print(st3)
