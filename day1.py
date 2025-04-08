@@ -45,9 +45,15 @@
 # engine = pyttsx3.init()
 # engine.say("Hello World, How are you?, this is my laptop and how i works on it its mine wish not your")
 # engine.runAndWait()
-import pyttsx3
-a = input("Enter your text here : ")
-text = pyttsx3.init()
-text.say(a)
-# print(f"speaking : {x}")
-text.runAndWait()
+# import pyttsx3
+# a = input("Enter your text here : ")
+# text = pyttsx3.init()
+# text.say(a)
+# # print(f"speaking : {x}")
+# text.runAndWait()
+
+
+# st = "hello class of AI"
+# st.title()
+# st.split(" ")
+# print(st)
