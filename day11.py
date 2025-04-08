@@ -52,11 +52,11 @@ dic.update({"color":"sanwla","height":"6f"})
 # a = 30
 
 # print(a,b)
+ 
 
-a = 10
-b = a  #pass by value
-print(a,b)
-a = 30
-
-print(a,b)
-
+#non premitive data types
+#i)list
+#ii) set
+#iii) dictionaries
+# #iv) tuples
+# but tuples are im muteable and that's why it's used in pass by Value not as pass by reference

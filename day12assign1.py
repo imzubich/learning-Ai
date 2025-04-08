@@ -1,5 +1,5 @@
 num1 = 50+70-20*2/5
-print(num1)
+# print(num1)
 def num2():
     flag = False
     if(num1>=50 or num1<=500):
@@ -8,5 +8,5 @@ def num2():
         print("Flag is True")
     else:
         print("Flag is False")
-    
+    1
 num2()
